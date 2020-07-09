@@ -1,0 +1,21 @@
+#	server:
+#   port: 因为会启动多个 product-data-service, 所以端口号由用户自动设置，推荐 8001,8002,8003
+
+mybatis:
+  type-aliases-package: cn.how2j.springcloud.pojo          # 所有Entity别名类所在包
+#  mapper-locations: mybatis/mapper/**/*.xml                           # mapper映射文件
+
+spring:
+  application:
+    name: product-data-service
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/how2java?characterEncoding=UTF-8
+    username: root
+    password: root
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8888
