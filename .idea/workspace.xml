@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d70036a-1889-42f1-9c24-4432ed2ee96f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/configserver/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/configserver.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/src/main/java/com/example/springcloud/configserver/ConfigserverApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/src/test/java/cn/how2j/springcloud/configserver/ConfigserverApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/src/test/java/com/example/springcloud/configserver/ConfigserverApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/target/classes/com/example/springcloud/configserver/ConfigserverApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/target/test-classes/cn/how2j/springcloud/configserver/ConfigserverApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/target/test-classes/com/example/springcloud/configserver/ConfigserverApplicationTests.class" afterDir="false" />
+    <list default="true" id="9d70036a-1889-42f1-9c24-4432ed2ee96f" name="Default Changelist" comment="demo">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configserver/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configserver/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-data-service/target/classes/META-INF/product-data-service.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-view-service-feign/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-view-service-feign/target/classes/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/configserver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/configserver.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/src/main/java/com/example/springcloud/configserver/ConfigserverApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/java/com/example/springcloud/configserver/ConfigserverApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/src/test/java/cn/how2j/springcloud/configserver/ConfigserverApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/target/classes/com/example/springcloud/configserver/ConfigserverApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/target/test-classes/cn/how2j/springcloud/configserver/ConfigserverApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/target/test-classes/com/example/springcloud/configserver/ConfigserverApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,13 +58,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1dyqtCIDObVFnFxllwe3HxLEv43" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -84,7 +89,19 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.springcloud.configserver" />
+    </key>
+  </component>
   <component name="RunManager" selected="Spring Boot.Unnamed (2)">
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="configserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springcloud.configserver.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="configserver" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springcloud.configserver.ConfigserverApplication" />
@@ -121,6 +138,7 @@
       <item itemvalue="Spring Boot.Unnamed (1)" />
       <item itemvalue="Spring Boot.Unnamed" />
       <item itemvalue="Spring Boot.ConfigserverApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
     </list>
   </component>
   <component name="ServiceViewManager">
@@ -149,7 +167,7 @@
       <workItem from="1593567717919" duration="43000" />
       <workItem from="1594173259924" duration="12335000" />
       <workItem from="1594263093263" duration="6900000" />
-      <workItem from="1594273340865" duration="2480000" />
+      <workItem from="1594273340865" duration="5671000" />
     </task>
     <task id="LOCAL-00001" summary="demo">
       <created>1594267308392</created>
@@ -172,13 +190,28 @@
       <option name="project" value="LOCAL" />
       <updated>1594275500580</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="demo">
+      <created>1594275874993</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594275874993</updated>
+    </task>
+    <task id="LOCAL-00005" summary="demo">
+      <created>1594276039610</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594276039610</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="demo" />
     <option name="LAST_COMMIT_MESSAGE" value="demo" />
   </component>
@@ -207,10 +240,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="427" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1594178269334" />
-    <state x="148" y="0" key="CommitChangelistDialog2" timestamp="1594275872848">
+    <state x="148" y="0" key="CommitChangelistDialog2" timestamp="1594277041961">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="148" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1594275872848" />
+    <state x="148" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1594277041961" />
     <state x="442" y="118" key="FileChooserDialogImpl" timestamp="1594267133887">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -251,6 +284,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1306" height="136" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1594275407685" />
+    <state x="213" y="26" key="Maven.ArtifactSearchDialog" timestamp="1594278454012">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="26" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1594278454012" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1594272939238">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -259,13 +296,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="194" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1594263111955" />
-    <state x="475" y="288" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594275517973">
+    <state x="475" y="288" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594276100250">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="475" y="288" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1594275517973" />
-    <state x="64" y="111" key="new project wizard" timestamp="1594273406576">
+    <state x="475" y="288" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1594276100250" />
+    <state x="64" y="111" key="new project wizard" timestamp="1594278532555">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="64" y="111" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1594273406576" />
+    <state x="64" y="111" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1594278532555" />
   </component>
 </project>

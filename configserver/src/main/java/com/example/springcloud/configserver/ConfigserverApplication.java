@@ -9,7 +9,6 @@ import org.springframework.cloud.config.server.ConfigServerApplication;
 import org.springframework.cloud.config.server.EnableConfigServer;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
-
 @SpringBootApplication
 @EnableConfigServer
 @EnableDiscoveryClient
